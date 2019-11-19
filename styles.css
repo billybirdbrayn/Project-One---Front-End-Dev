@@ -151,9 +151,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -204,13 +202,6 @@ a.social:hover {
   }
 
 }
-
-/* id that connect JavaScript allert */
-
-#noTwitterMsg {
- color: purple; 
-}
-
 
 /* Styles for experience.html */
 
@@ -283,13 +274,15 @@ text-align: center;
   background-color:  lavender;
   background-size: cover;
   color: #444;
+  position: fixed;
+  width: 100%;
 }
 
 
 .wrapperIntro {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 150px;
+  grid-template-rows: 220px;
   grid-gap: 10px;
   background: url('images/bbbackground.jpg') no-repeat top center ;
   background-size: cover;
@@ -298,10 +291,10 @@ text-align: center;
 
 .boxIntro {
   
-  color: greenyellow;
+  color: white;
   border-radius: 5px;
   padding: 20px;
-  font-size: 130%;
+  font-size: 150%;
   font-family: 'Times New Roman';
 }
 
@@ -312,6 +305,7 @@ text-align: center;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
+  padding: 10px;
 }
 
 .box {
